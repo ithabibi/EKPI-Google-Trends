@@ -28,8 +28,8 @@ These steps reduce noise and improve robustness of downstream sentiment inferenc
 
 ## Sentiment Inference
 
-Text sentiment_analysis is implemented in `hybrid_sentiment_analysis.py` and trained model save in `hybrid_sentiment_model.h5` and auto-labeling script implemented in`auto_labele_related_queries.py`
-Sentiment inference is performed using a hybrid "Lexicon + FastText  + CNN + BiLSTM"  neural architecture.
+Text sentiment_analysis is implemented in `hybrid_sentiment_analysis.py` and trained model save in `hybrid_sentiment_model.h5` and auto-labeling script implemented in`auto_label_related_queries.py`
+Sentiment inference is performed using a hybrid (Lexicon + FastText  + CNN + BiLSTM0)  neural architecture.
 The model assigns polarity labels (positive or negative) to related search queries.
 
 Model characteristics:
@@ -49,4 +49,5 @@ The sentiment pipeline produces annual counts of:
 - Negative queries (NS).
 
 These outputs are used to construct sentiment-based EKPIs in later stages.
+
 
